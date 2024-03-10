@@ -442,7 +442,42 @@ TIME COMPLEXITY:
 The time complexity of the merge sort algorithm is O(n log n), where 'n' is the size of the array.
 
 
-## 9. GENERATE MAGIC SQAURE 
+## 9.MERGE SORT ALGORITHM 
+
+ALGORITHM:
+
+Merge sort is a divide-and-conquer algorithm that recursively divides the array into two halves, sorts each half, and then merges the sorted halves.
+The merging step involves comparing and combining elements from two sorted arrays into a single sorted array.
+
+
+GRAPH:
+import matplotlib.pyplot as plt
+
+values = [
+(1000,472 ),
+(2000,928 ),
+(3000,1385 ),
+(4000,1895 ),
+(5000,2510 )
+      
+]
+
+x_values, y_values = zip(*values)
+
+plt.plot(x_values, y_values, marker='o', linestyle='-', color='b')
+
+plt.xlabel('Input Values')
+plt.ylabel('NanoSeconds')
+plt.title('Inputs Vs Time Graph')
+
+plt.show()
+![image](https://github.com/arin2107/analysis-and-design-of-algorithm/assets/121510816/b441c561-cc8a-471a-9b4d-1bb812ce00bc)
+
+
+TIME COMPLEXITY:
+The time complexity of the merge sort algorithm is O(n log n), where 'n' is the size of the array.
+
+## 10. GENERATE MAGIC SQAURE 
 
 ALGORITHM :
 
@@ -482,41 +517,6 @@ plt.show()
 TIME COMPLEXITY:
 The time complexity of generating a magic square using the Siamese method is O(n^2), where 'n' is the order of the square.
 
-
-## 10.MERGE SORT ALGORITHM 
-
-ALGORITHM:
-
-Merge sort is a divide-and-conquer algorithm that recursively divides the array into two halves, sorts each half, and then merges the sorted halves.
-The merging step involves comparing and combining elements from two sorted arrays into a single sorted array.
-
-
-GRAPH:
-import matplotlib.pyplot as plt
-
-values = [
-(1000,472 ),
-(2000,928 ),
-(3000,1385 ),
-(4000,1895 ),
-(5000,2510 )
-      
-]
-
-x_values, y_values = zip(*values)
-
-plt.plot(x_values, y_values, marker='o', linestyle='-', color='b')
-
-plt.xlabel('Input Values')
-plt.ylabel('NanoSeconds')
-plt.title('Inputs Vs Time Graph')
-
-plt.show()
-![image](https://github.com/arin2107/analysis-and-design-of-algorithm/assets/121510816/b441c561-cc8a-471a-9b4d-1bb812ce00bc)
-
-
-TIME COMPLEXITY:
-The time complexity of the merge sort algorithm is O(n log n), where 'n' is the size of the array.
 
 
 ## 11.PRACTICAL 11 : QUICK SORT ANALYSIS
