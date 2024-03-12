@@ -809,9 +809,9 @@ plt.show()
 
 
 TIME COMPLEXITY:
-Average Time Complexity: O(n log n)
+Average Time Complexity: O(log n)
 Worst-Case Time Complexity: O(n^2) (uncommon with good pivot selection strategies)
-The iterative version maintains the average time complexity of O(n log n) but avoids the function call overhead of recursion.
+The iterative version maintains the average time complexity of O( log n) but avoids the function call overhead of recursion.
 
 
 ## 17.PRACTICAL 17 : PRIM'S ALGORITHM
